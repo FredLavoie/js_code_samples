@@ -1,0 +1,22 @@
+{
+  "name": "js_code_samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter_function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLavoie/js_code_samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredLavoie/js_code_samples/issues"
+  },
+  "homepage": "https://github.com/FredLavoie/js_code_samples#readme",
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  }
+}
