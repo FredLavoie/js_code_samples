@@ -8,12 +8,13 @@ let filtered1 = numbers.filter(number => {
 console.log('filter out the even numbers');
 console.log(filtered1);
 
+/****************************************************************************/
 // dfg
 
 const arr = [,,,,,,,];
 
 let filtered2 = arr.filter(ea => {
-  
+
 });
 
 console.log(filtered2);
