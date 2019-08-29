@@ -21,5 +21,3 @@ const modArr = numbers.map(ea => {
 console.log('Add 3 to each item in the array:');
 console.log(modArr);
 
-/****************************************************************************/
-//

@@ -25,6 +25,7 @@ console.log(filtered3);
 
 /****************************************************************************/
 // filter built into function with criteria input
+// example similar to MDN docs example
 
 const arr4 = ['banana', 'apple', 'blueberry', 'orange', 'cherry'];
 
