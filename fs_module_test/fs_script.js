@@ -4,18 +4,18 @@ const fs = require('fs');
 
 // implementation of readFileSync
 console.log('readFileSync started');
-const data = fs.readFileSync('text_file.txt');
-console.log(data.toString());
+const data = fs.readFileSync('text_file.txt', 'utf-8');
+console.log(data);
 console.log('readFileSync ended');
 
 
 // implementation of readFile 
 console.log('readFile started');
-fs.readFile('text_file.txt', function (err, data) {
+fs.readFile('text_file.txt', 'utf-8', function (err, data) {
     if (err) {
 		return console.error(err);
 	}
-	console.log(data.toString());
+	console.log(data);
 	console.log('readFile ended');
 
 });
