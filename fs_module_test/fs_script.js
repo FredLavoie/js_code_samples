@@ -12,12 +12,11 @@ console.log('readFileSync ended');
 // implementation of readFile 
 console.log('readFile started');
 fs.readFile('text_file.txt', 'utf-8', function (err, data) {
-    if (err) {
+	if (err) {
 		return console.error(err);
 	}
 	console.log(data);
 	console.log('readFile ended');
-
 });
 console.log('code after readFile');
 
